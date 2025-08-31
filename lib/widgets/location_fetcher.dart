@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-class LocationWidget extends StatefulWidget {
-  const LocationWidget({super.key});
+class LocationFetcher extends StatefulWidget {
+  const LocationFetcher({super.key});
 
   @override
-  State<LocationWidget> createState() => _LocationWidgetState();
+  State<LocationFetcher> createState() => _LocationFetcherState();
 }
 
-class _LocationWidgetState extends State<LocationWidget> {
+class _LocationFetcherState extends State<LocationFetcher> {
   String? _locationMessage;
 
   @override
