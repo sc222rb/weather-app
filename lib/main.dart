@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-
 import 'pages/current_weather_page.dart';
 import 'pages/information_page.dart';
 import 'widgets/bottom_nav_bar.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await dotenv.load(fileName: ".env");
+
   final goRouter = GoRouter(
     routes: [
       ShellRoute(
