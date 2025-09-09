@@ -1,16 +1,32 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+## Overview
+This Weather App displays the current temperature for your location using data from the OpenWeatherMap API (version 2.5). The app includes multiple screens to provide a user-friendly interface and additional information about the app.
 
-## Getting Started
+## Features
+- **Current Location Temperature:** Shows the temperature for the user’s current location.
+- **Multiple Screens:**
+  - **Current Weather Screen:** Displays the current temperature.
+  - **About Screen:** Provides information about the app and its purpose.
+- **Simple and Clean Design:** Focuses on usability and clear presentation of weather data.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Programming Language:** Dart
+- **Framework:** Flutter
+- **API:** OpenWeatherMap API (version 2.5)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Clone this repository
+2. Install dependencies
+    ```bash
+      flutter pub get
+    ```
+3. Add your OpenWeatherMap API key to the configuration file.
+4. Run the app
+    ```bash
+      flutter run
+    ```
+## Usege
+- Open the app on your device or emulator.
+- Allow location access to display the current weather.
+- Navigate between the Current Weather and About screens using the menu.
